@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
+title: "(4K) 중부 내륙 힐링여행"
 date: 2015-08-04 03:21:35
 image: '/assets/img/'
-description: 'Put your description here.'
+description: '남천야영장 / 단양 스카이워크 / 자양영당 / 고씨동굴'
 tags:
 - jekyll
 - web
@@ -12,20 +12,7 @@ categories:
 twitter_text: 'Put your twitter description here.'
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/Bmqtphou2N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
