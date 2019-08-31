@@ -31,13 +31,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: /hwang/
   - title: Series
-    url: /series
+    url: /hwang/
   - title: Tags
-    url: /tags
+    url: /hwang/
   - title: About Me
-    url: /about
+    url: /hwang/
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
