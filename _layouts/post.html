@@ -8,8 +8,10 @@
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
                 {{ content }}
+                {% assign viewKey = page.youtube | split: "https://www.youtube.com/embed/" %}
+            
             </article>
-
+            <div style="text-align:center;"><a href="https://www.youtube.com/watch?v={{ viewKey }}">댓글 달러 가기</a></div>
             {% include share.html %}
             {% include author.html %}
             {% include footer.html %}
