@@ -18,17 +18,19 @@ layout: default
                 </a>
                 <div class="content">
                     <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
-                    <iframe style='width: 100%; min-height: 350px;' src="{{ post.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style='width: 100%; min-height: 450px;' src="{{ post.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="description">
                         {{ post.content | strip_html | truncatewords:40 }}
                         <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
                     </p>
-
+            
+                    <!--
                     <div class="tags">
                         {% for tag in post.tags %}
                             <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
+                    -->
                 </div>
         </article>
     {% endfor %}
